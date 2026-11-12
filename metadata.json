@@ -1,0 +1,6 @@
+{
+  "name": "SEO Master Pro",
+  "description": "ابزار تخصصی و جامع سئو شامل آنالیز سایت، بررسی Core Web Vitals، تحلیل رقبا، ساخت اسکیما، ساخت نقشه سایت، بررسی رکورد‌های DNS و ساخت robots.txt",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
