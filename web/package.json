@@ -1,0 +1,30 @@
+{
+  "name": "seo-master-pro-web",
+  "private": true,
+  "version": "1.0.0",
+  "description": "SEO Master Pro — web version of the Android app (React + Express)",
+  "type": "module",
+  "scripts": {
+    "dev": "NODE_OPTIONS=--use-system-ca tsx watch --ignore ./src server/index.ts",
+    "build": "vite build && tsc -p tsconfig.server.json",
+    "start": "NODE_ENV=production node --use-system-ca dist-server/server/index.js",
+    "typecheck": "tsc --noEmit -p tsconfig.json && tsc --noEmit -p tsconfig.server.json"
+  },
+  "dependencies": {
+    "@fontsource/vazirmatn": "^5.3.0",
+    "express": "^4.22.3",
+    "lucide-react": "^1.72.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.25",
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.3.0",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8"
+  }
+}
